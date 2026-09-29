@@ -1,0 +1,23 @@
+# Downloaded datasets (regenerate with the get_data_*.py scripts)
+data/
+data_se/
+data_dk/
+data_ecobee/
+
+# Generated figures (regenerate with the plots_*.py scripts / generate_all.py)
+figures/
+
+# The .pptx is NOT ignored — it is authored, not generated from code,
+# so it is versioned in git.
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.python-version
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
